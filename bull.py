@@ -1,8 +1,13 @@
-print ("hello my name is atharva sangle")
+name = "atharva"
 
+i = 0 
+j = len(name) -1 
 
-num = int(input("enter the number"))
+while (i<j):
+    temp = name[i]
+    name[i] = name[j]
+    name[j] = temp 
+    i+=1 
+    j-=1
 
-print (num)
-
-#hrllo 
+print (name)
